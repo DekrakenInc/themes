@@ -35,7 +35,7 @@ h1, h2 {
 	border:solid 2px #f7b2b2;
 }
 .caption {
-	font-family: "Alice", serif;
+	font-family: 'Alice', serif;
 }
 .couple-ring-1::before {
     content: '';
