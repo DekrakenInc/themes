@@ -93,7 +93,7 @@ h1, h2 {
 }
 .information h3::after {
     content: '';
-    background: url('./images/border-information-tr.png') top left no-repeat;
+    background: url('/images/border-information-tr.png') top left no-repeat;
     top: -10px;
     right: 7px;
     background-size: contain;
