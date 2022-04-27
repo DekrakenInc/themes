@@ -100,7 +100,7 @@ h1, h2 {
 }
 .information::before {
     content: '';
-    background: url('./images/border-information-bl.png') bottom left no-repeat;
+    background: url('/images/border-information-bl.png') bottom left no-repeat;
     bottom: -10px;
     left: 5px;
     background-size: contain;
