@@ -127,6 +127,12 @@ h1, h2 {
     max-width: 800px;
 	text-align: center;
 }
+section.cok {
+    position: relative;
+    padding-top: 80px!important;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 section {
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -379,6 +385,9 @@ footer .col-md-12 {
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
+	section.cok {
+    padding-top: 60px !important;
+}
 	section {
 		padding-top: 30px !important;
 		padding-bottom: 30px !important;
