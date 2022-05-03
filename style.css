@@ -1,9 +1,9 @@
 html, body {
 	font-family: 'Kurale', serif;
-    width: 100%;
-    color:#fff;
-    background:#000 url('images/bg.png');
-    background-size: contain;
+   	width: 100%;
+   	color:#fff;
+   	background:#000 url('images/bg.png');
+    	background-size: contain;
 }
 html.has-lightbox {
 	overflow: hidden;
@@ -132,6 +132,45 @@ section.cok {
     padding-top: 100px!important;
     padding-right: 15px;
     padding-left: 15px;
+}
+section.cok img {
+	max-width: 100px;
+}
+section.cok small {
+	display: block;
+}
+section.cok::before, section.cok::after {
+	display: block;
+	content: '';
+	height: 40vh;
+	width: 40%;
+	position: absolute;
+	z-index: -1;
+}
+section.cok::before {
+	background:url('./images/bl.png') no-repeat;
+	background-size: contain;
+	background-position: bottom left;
+	bottom:0px;
+	left: 0px;
+    -webkit-animation: slideBottomLeft 0.5s forwards;
+    -webkit-animation-delay: 2.5s;
+    animation: slideBottomLeft 0.5s forwards;
+    animation-delay: 2.5s;
+}
+section.cok::after {
+	top: -500px;
+    right: -500px;
+    background: url("./images/tr.png") no-repeat;
+    background-size: contain;
+    background-position: top right;
+    -webkit-animation: slideTopRight 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slideTopRight 0.5s forwards;
+    animation-delay: 2s;
+}
+section.cok .col-md-12 {
+	z-index: 3;
 }
 section {
 	padding-top: 80px;
