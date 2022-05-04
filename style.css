@@ -139,7 +139,7 @@ section.cok img {
 section.cok small {
 	display: block;
 }
-section.cok::before, section.cok::after {
+section.cok::before, section.cok::after, section.tyu::before, section.tyu::after {
 	display: block;
 	content: '';
 	height: 40vh;
@@ -151,23 +151,15 @@ section.cok::before {
 	background:url('./images/bl.png') no-repeat;
 	background-size: contain;
 	background-position: bottom left;
-	bottom:0px;
-	left: 0px;
-    -webkit-animation: slideBottomLeft 0.5s forwards;
-    -webkit-animation-delay: 2.5s;
-    animation: slideBottomLeft 0.5s forwards;
-    animation-delay: 2.5s;
+	bottom:0;
+	left: 0;
 }
-section.cok::after {
-	top: -500px;
-    right: -500px;
-    background: url("./images/tr.png") no-repeat;
-    background-size: contain;
-    background-position: top right;
-    -webkit-animation: slideTopRight 0.5s forwards;
-    -webkit-animation-delay: 2s;
-    animation: slideTopRight 0.5s forwards;
-    animation-delay: 2s;
+section.cok::after, section.tyu::after {
+	top: 0;
+    	right: 0;
+    	background: url('./images/tr.png') no-repeat;
+    	background-size: contain;
+    	background-position: top right;
 }
 section.cok .col-md-12 {
 	z-index: 3;
