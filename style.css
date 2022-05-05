@@ -7,6 +7,10 @@ html, body {
 	transition: all 0.3s ease;
     	scroll-behavior: smooth;
 	overflow: hidden;
+	margin: 0;
+ 	padding: 0;
+  	-webkit-font-smoothing: antialiased;
+ 	-moz-osx-font-smoothing: grayscale;
 }
 html.has-lightbox {
 	overflow: hidden;
