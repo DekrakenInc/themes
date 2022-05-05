@@ -6,6 +6,7 @@ html, body {
     	background-size: contain;
 	transition: all 0.3s ease;
     	scroll-behavior: smooth;
+	overflow: hidden;
 }
 html.has-lightbox {
 	overflow: hidden;
