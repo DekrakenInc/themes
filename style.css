@@ -4,6 +4,8 @@ html, body {
    	color:#fff;
    	background:#000 url('images/bg.png');
     	background-size: contain;
+	transition: all 0.3s ease;
+    	scroll-behavior: smooth;
 }
 html.has-lightbox {
 	overflow: hidden;
