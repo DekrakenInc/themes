@@ -375,18 +375,7 @@ button.owl-prev:focus {
     outline:none !important;
     box-shadow: none !important;
 }
-.form-control, .form-control:focus,
-.form-control:disabled, .form-control[readonly] {
-    background-color: transparent;
-    opacity: 1;
-    color:#fff;
-    border-radius: 0;
-    border: none;
-    padding: 0;
-    border-bottom: solid 2px #efbf68;
-    outline:none !important;
-    box-shadow: none !important;
-}
+
 footer {
 	position: relative;
 }
